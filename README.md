@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="build/icon.png" width="72" alt="Waypoint logo" />
+<img src="icon.png" width="72" alt="Waypoint logo" />
 
 # Waypoint
 
