@@ -26,18 +26,24 @@ No config file, no rebuild.
   *waypoints*) from a settings panel on the homepage itself.
 - **Google search, built in.** Type a phrase in the address bar or the
   homepage's search box and it searches Google directly.
-- **One click on Windows.** `install.bat` sets it up once; `start.bat` opens
-  it from then on.
+- **Built-in ad blocking.** Common ad/tracker domains are blocked outright,
+  plus a best-effort fast-forward through YouTube ads.
+- **Windows installer.** Download and run `Waypoint Setup.exe` like any
+  other program — no Node.js required.
 
 ## Get it
 
-Download the latest release below, unzip it, then:
+**Windows:** download `Waypoint Setup.exe` from the latest release and run
+it. That's it — Electron's runtime is bundled inside.
 
-- **Windows:** double-click `install.bat` once, then `start.bat` any time
-  after.
-- **macOS / Linux:** run `npm install` once, then `npm start`.
+**Building from source (any OS):**
 
-Requires [Node.js](https://nodejs.org).
+- **Windows:** unzip the source, then double-click `install.bat` once and
+  `start.bat` any time after.
+- **macOS / Linux:** unzip the source, run `npm install` once, then
+  `npm start`.
+
+Requires [Node.js](https://nodejs.org) only if building from source.
 
 **[⬇ Download the latest release](https://github.com/RiseXS/Waypoint-Browser/releases/latest)**
 
