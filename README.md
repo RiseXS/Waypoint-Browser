@@ -38,10 +38,10 @@ it. That's it — Electron's runtime is bundled inside.
 
 **Building from source (any OS):**
 
-- **Windows:** unzip the source, then double-click `install.bat` once and
-  `start.bat` any time after.
-- **macOS / Linux:** unzip the source, run `npm install` once, then
+- **Windows:** Use the .exe installer
+- **MAC OS:** unzip the source, run `npm install` once, then
   `npm start`.
+  **Linux:** Double click the appimage file
 
 Requires [Node.js](https://nodejs.org) only if building from source.
 
